@@ -1,0 +1,23 @@
+ body {
+            background-image: url(pomotimeBackground.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1{
+            color: white;
+        }
+        #controls{
+            background: none;
+            border: 0cap;
+            cursor: pointer;
+            width: fit-content;
+            width: 6vh;
+        }
+        
+        .timer{
+            font-size: 12vh;
+            color: white;
+        }
+        
+       
