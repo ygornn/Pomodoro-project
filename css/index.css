@@ -7,7 +7,7 @@
         h1{
             color: white;
         }
-        #controls{
+        .controls{
             background: none;
             border: 0cap;
             cursor: pointer;
@@ -15,9 +15,5 @@
             width: 6vh;
         }
         
-        .timer{
-            font-size: 12vh;
-            color: white;
-        }
         
        
