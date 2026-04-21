@@ -1,0 +1,23 @@
+ body {
+        background-image: url(../images/pomotimeBackground.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .row{
+
+    }
+    h1{
+        color: white;
+    }
+    .controls{
+        background: none;
+        border: 0cap;
+        cursor: pointer;
+        width: fit-content;
+        width: 6vh;
+    }
+    #checkbox{
+        grid: flex;
+        margin-left: 2vh;
+    }
