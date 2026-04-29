@@ -1,5 +1,6 @@
 const playBtn = document.querySelector("#play");
 const timer_display = document.querySelector("#timer");
+const add_task = document.querySelector("#add_task");
 
 //console.log(time);
 function play(){
@@ -18,3 +19,5 @@ function play(){
 }
 
 playBtn.addEventListener("click", play);
+
+//add_task.addEventListener("click", (e) =>{e.preventDefault()})

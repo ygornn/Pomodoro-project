@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         
     </head>
@@ -17,7 +19,7 @@
                     <div id="timer" class="flex font-bold text-white text-[10vh] sm:text-[12vh] md:text-[15vh]">
                         <input type="text" name="time_val" value="25:00" class="w-[25vh] sm:w-[32vh] md:w-[40vh] h-[10vh] sm:h-[12vh] md:h-[15vh] text-center ">
                     </div>
-                    <div class="flex font-mono text-white mb-10 md:mb-20 justify-center">
+                    <div class="flex text-white mb-10 md:mb-20 justify-center">
                         <p class="text-xs sm:text-sm md:text-base">Programming</p>
                     </div>
                     <div class="flex gap-6 sm:gap-8 md:gap-10 justify-center">
@@ -34,14 +36,40 @@
                 </form>
                 </div>
             </div>
-            <div class="flex justify-center my-40 mr-8 bg-black/20 rounded-[2.6vh]">
-                <form action="" method="post" class="w-full h-full">
-                    <p class="flex justify-center text-white text-[3vh] font-bold my-4">TAREFAS</p>
-                    <label id="checkbox">
-                        <input type="checkbox" class="checkbox" name="1" id="1">
-                        Programming
-                    </label>
+            <div class="flex justify-center my-40 mr-8 bg-black rounded-[3.6vh]">
+                <div class="grid grid-rows-11 w-full">
+                    <div class="flex row-span-10 shrink-0">
+                        
+                        <form action="form.html" method="post" class="w-full h-full">
+                            <p class="flex justify-center text-white text-[3vh] font-bold my-4">TAREFAS</p>
+                            <div class="checkbox_div">
+                                <input type="checkbox" class="checkbox mr-3" name="1" id="1">
+                                <label id="checkbox">Programming</label>
+                            </div>
+                            <div class="checkbox_div">
+                                <input type="checkbox" class="checkbox mr-3" name="1" id="1">
+                                <label id="checkbox">Programming</label>
+                            </div>
+                            <div class="checkbox_div">
+                                <input type="checkbox" class="checkbox mr-3" name="1" id="1">
+                                <label id="checkbox">Programming</label>
+                            </div>
+                            <div class="checkbox_div">
+                                <input type="checkbox" class="checkbox mr-3" name="1" id="1">
+                                <label id="checkbox">Programming</label>
+                            </div>
+                            <div class="checkbox_div">
+                                <input type="checkbox" class="checkbox mr-3" name="1" id="1">
+                                <label id="checkbox">Programming</label>
+                            </div>
+                    </div>
+                            
+                    <div class="flex justify-end items-center h-10 ">
+                        <button type="submit" class="size-15 mr-8 mb-8 bg-white text-black text-[3vh] rounded-[3vh] hover:bg-gray-200" id="add_task">+</button>
+                    </div>
                 </form>
+                </div>
+            </div>
         </div> 
         <script src="../js/scripts.js"></script>
 </body>

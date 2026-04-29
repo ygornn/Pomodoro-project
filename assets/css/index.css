@@ -4,9 +4,6 @@
         background-attachment: fixed;
         background-size: cover;
     }
-    .row{
-
-    }
     h1{
         color: white;
     }
@@ -17,7 +14,19 @@
         width: fit-content;
         width: 6vh;
     }
+
+    .checkbox_div{
+       flex: flex;
+       justify-content: start;
+       align-items: center;
+       padding: 2vh;
+       margin-left: 1vh;
+       color: white;
+    }
+
     #checkbox{
-        grid: flex;
-        margin-left: 2vh;
+        flex: flex;
+        margin-left: 1vh;
+        font-weight: 400;
+        font-size: 2vh;
     }
